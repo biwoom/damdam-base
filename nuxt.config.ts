@@ -8,8 +8,21 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     'nuxt-llms',
     '@nuxtjs/mcp-toolkit',
-    '@nuxthub/core'
+    '@nuxthub/core',
+    'nuxt-studio'
   ],
+
+  studio: {
+    enabled: true,
+    route: '/_studio', // 관리자 페이지 접속 경로
+    repository: {
+      provider: 'github',
+      owner: 'biwoom',       // 귀하의 GitHub 사용자명/조직명
+      repo: 'damdam-base',   // 귀하의 리포지토리 이름
+      branch: 'main'         // 커밋할 브랜치
+    }
+  },
+
   hub: {
     database: true, // D1 데이터베이스 사용 활성화
     blob: true,     // (필요시) 파일 업로드용 R2 스토리지 활성화
