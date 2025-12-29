@@ -26,7 +26,7 @@ export default defineAppConfig({
     colorMode: true,
     links: [{
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt-ui-templates/docs',
+      'to': 'https://github.com/biwoom/damdam-base',
       'target': '_blank',
       'aria-label': 'GitHub'
     }]
@@ -55,16 +55,11 @@ export default defineAppConfig({
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/nuxt-ui-templates/docs/edit/main/content',
+      edit: 'https://github.com/biwoom/damdam-base/tree/main/content',
       links: [{
-        icon: 'i-lucide-star',
-        label: 'Star on GitHub',
-        to: 'https://github.com/nuxt/ui',
-        target: '_blank'
-      }, {
         icon: 'i-lucide-book-open',
-        label: 'Nuxt UI docs',
-        to: 'https://ui.nuxt.com/docs/getting-started/installation/nuxt',
+        label: 'Damdam docs',
+        to: 'https://github.com/biwoom/damdam-base/tree/main/content',
         target: '_blank'
       }]
     }

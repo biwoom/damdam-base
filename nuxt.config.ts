@@ -7,8 +7,14 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-og-image',
     'nuxt-llms',
-    '@nuxtjs/mcp-toolkit'
+    '@nuxtjs/mcp-toolkit',
+    '@nuxthub/core'
   ],
+  hub: {
+    database: true, // D1 데이터베이스 사용 활성화
+    blob: true,     // (필요시) 파일 업로드용 R2 스토리지 활성화
+    analytics: true // (필요시) 방문자 분석 활성화
+  },
 
   devtools: {
     enabled: true
