@@ -1,0 +1,12 @@
+{
+    "name": "damdam",
+    "compatibility_date": "2024-07-11",
+    "pages_build_output_dir": ".output/public",
+    "d1_databases": [
+        {
+            "binding": "DB",
+            "database_name": "damdam-db",
+            "database_id": "a8f6e197-871c-4ee6-ad85-7de1df903f21"
+        }
+    ]
+}
