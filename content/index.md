@@ -12,7 +12,9 @@ orientation: horizontal
 :hero-background
 
 #title
-담담(湛湛), [지혜]{.text-primary}를 맑게 담다.
+담담, [지혜]{.text-primary}를 맑게 담다.
+#description
+**:담담(淡淡)하게, 담담(曇談)해요.** :br :br
 
 #description
 불교 경전과 연구 노트를 유기적으로 연결하는 차세대 지식베이스(PKB). :br
